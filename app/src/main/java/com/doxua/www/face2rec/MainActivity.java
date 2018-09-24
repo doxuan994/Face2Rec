@@ -158,6 +158,7 @@ public class MainActivity extends AppCompatActivity {
         AndroidFrameConverter converterToBitmap = new AndroidFrameConverter();
         OpenCVFrameConverter.ToMat converterToMat = new OpenCVFrameConverter.ToMat();
 
+        // http://bytedeco.org/news/2015/04/04/javacv-frame-converters/
         // -----------------------------------------------------------------------------------------
         //                              Convert to mat for processing
         // -----------------------------------------------------------------------------------------
